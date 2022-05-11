@@ -1,0 +1,30 @@
+.box {
+    height: 25px;
+    width: 25px;
+    border: 1px solid black;
+    padding: 5px;
+    margin: 10px;
+}
+
+.boxes {
+    display: flex;
+    flex-direction: row;
+}
+
+.container {
+    display: flex;
+}
+
+.result {
+    margin-left: 200px;
+    margin-top: 100px;
+    font-size: 50px;
+}
+
+.correct {
+    background-color: green;
+}
+
+.incorrect {
+    background-color: red;
+}
